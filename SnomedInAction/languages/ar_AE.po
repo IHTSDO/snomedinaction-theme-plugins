@@ -1,0 +1,3268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Directory v2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-24 08:20:16+0000\n"
+"Last-Translator: directory-admin <dum1@chimpgroup.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: U.A.E.\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: archive.php:177
+#: cs-templates/blog-styles/blog_templates.php:849
+#: include/shortcodes/shortcode_functions.php:337
+#: include/shortcodes/shortcode_functions.php:376
+#: index.php:91
+#: single.php:212
+#: single.php:225
+#, php-format
+#@ dir
+msgid "%1$s"
+msgstr ""
+
+#: archive.php:182
+#: cs-templates/blog-styles/blog_templates.php:108
+#: cs-templates/blog-styles/blog_templates.php:307
+#: cs-templates/blog-styles/blog_templates.php:429
+#: cs-templates/blog-styles/blog_templates.php:819
+#: index.php:97
+#@ dir
+msgid "Read more"
+msgstr ""
+
+#: comments.php:12
+#@ dir
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:18
+#: comments.php:27
+#@ dir
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:19
+#: comments.php:28
+#@ dir
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+#@ dir
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+#@ dir
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+#@ dir
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: comments.php:74
+#: comments.php:75
+#@ dir
+msgid "Leave us a comment"
+msgstr ""
+
+#: comments.php:76
+#@ dir
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:77
+#: functions.php:3264
+#: include/theme-components/cs-importer/wordpress-importer.php:296
+#: include/theme-components/cs-mailchimp/mailchimp_functions.php:35
+#@ dir
+msgid "Submit"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:140
+#: include/shortcodes/loops_elements.php:806
+#@ dir
+msgid "Filterable"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:131
+#: cs-templates/blog-styles/blog_element.php:146
+#: include/shortcodes/loops_elements.php:93
+#: include/shortcodes/loops_elements.php:104
+#: include/shortcodes/loops_elements.php:607
+#: include/shortcodes/loops_elements.php:814
+#: include/shortcodes/shortcode_functions.php:1922
+#: include/shortcodes/shortcode_functions.php:1939
+#: include/shortcodes/shortcode_functions.php:1995
+#: include/shortcodes/shortcode_functions.php:2051
+#: include/shortcodes/shortcode_functions.php:2143
+#: include/shortcodes/typography_elements.php:79
+#: include/shortcodes/typography_elements.php:1280
+#@ dir
+msgid "Yes"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:132
+#: cs-templates/blog-styles/blog_element.php:147
+#: include/shortcodes/loops_elements.php:94
+#: include/shortcodes/loops_elements.php:608
+#: include/shortcodes/loops_elements.php:817
+#: include/shortcodes/shortcode_functions.php:1923
+#: include/shortcodes/shortcode_functions.php:1940
+#: include/shortcodes/shortcode_functions.php:1995
+#: include/shortcodes/shortcode_functions.php:2051
+#: include/shortcodes/shortcode_functions.php:2142
+#: include/shortcodes/typography_elements.php:80
+#: include/shortcodes/typography_elements.php:1281
+#@ dir
+msgid "No"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:116
+#: cs-templates/blog-styles/blog_templates.php:217
+#: cs-templates/blog-styles/blog_templates.php:315
+#: cs-templates/blog-styles/blog_templates.php:440
+#: cs-templates/blog-styles/blog_templates.php:538
+#: cs-templates/blog-styles/blog_templates.php:634
+#: cs-templates/blog-styles/blog_templates.php:766
+#: cs-templates/blog-styles/blog_templates.php:831
+#@ dir
+msgid "No Record Found"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:841
+#: single.php:204
+#@ dir
+msgid "in"
+msgstr ""
+
+#: functions.php:2597
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:226
+#@ dir
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:2598
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:227
+#@ dir
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:2599
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:228
+#, php-format
+#@ dir
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:2600
+#@ dir
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:2601
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:230
+#, php-format
+#@ dir
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2602
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:231
+#, php-format
+#@ dir
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2603
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:232
+#, php-format
+#@ dir
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2604
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:233
+#, php-format
+#@ dir
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2605
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:234
+#, php-format
+#@ dir
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2606
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:235
+#, php-format
+#@ dir
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2607
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:236
+#, php-format
+#@ dir
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2608
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:237
+#, php-format
+#@ dir
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2609
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:238
+#@ dir
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2610
+#@ dir
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: functions.php:2611
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:240
+#@ dir
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:2612
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:242
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2054
+#@ dir
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:2613
+#, php-format
+#@ dir
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:2644
+#, php-format
+#@ dir
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:3263
+#@ dir
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: functions.php:3313
+#@ dir
+msgid "Featured"
+msgstr ""
+
+#: functions.php:3328
+#: functions.php:3733
+#: include/shortcodes/shortcode_functions.php:504
+#: include/shortcodes/shortcode_functions.php:2109
+#: include/shortcodes/typography_elements.php:1481
+#: include/shortcodes/typography_elements.php:1646
+#@ dir
+msgid "Author"
+msgstr ""
+
+#: functions.php:3328
+#: functions.php:3331
+#: functions.php:3345
+#@ dir
+msgid "Archives"
+msgstr ""
+
+#: functions.php:3331
+#: functions.php:3730
+#: include/page_options.php:39
+#: single.php:221
+#@ dir
+msgid "Tags"
+msgstr ""
+
+#: functions.php:3333
+#, php-format
+#@ dir
+msgid "Search Results %1$s %2$s"
+msgstr ""
+
+#: functions.php:3335
+#, php-format
+#@ dir
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: functions.php:3337
+#, php-format
+#@ dir
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: functions.php:3337
+#@ dir
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: functions.php:3339
+#, php-format
+#@ dir
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: functions.php:3339
+#@ dir
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: functions.php:3341
+#@ dir
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:3343
+#@ dir
+msgid "Home"
+msgstr ""
+
+#: functions.php:3359
+#@ dir
+msgid "No results found."
+msgstr ""
+
+#: functions.php:3364
+#, php-format
+#@ dir
+msgid "<p>Ready to publish your first post? <a href=\"%1$s\">Get Started Here</a>.</p>"
+msgstr ""
+
+#: functions.php:3369
+#@ dir
+msgid "Suggestions:"
+msgstr ""
+
+#: functions.php:3371
+#@ dir
+msgid "Make sure all words are spelled correctly"
+msgstr ""
+
+#: functions.php:3372
+#@ dir
+msgid "Wildcard searches (using the asterisk *) are not supported"
+msgstr ""
+
+#: functions.php:3373
+#@ dir
+msgid "Try more general keywords, especially if you are attempting a name"
+msgstr ""
+
+#: functions.php:3408
+#@ dir
+msgid "0"
+msgstr ""
+
+#: functions.php:3445
+#: functions.php:3462
+#: include/theme-components/cs-widgets/widgets.php:553
+#@ dir
+msgid "Posted on"
+msgstr ""
+
+#: functions.php:3561
+#@ dir
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:3562
+#@ dir
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:3563
+#@ dir
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:3724
+#@ dir
+msgid "Filter By"
+msgstr ""
+
+#: functions.php:3727
+#@ dir
+msgid "Categories"
+msgstr ""
+
+#: functions.php:3737
+#@ dir
+msgid "Show All"
+msgstr ""
+
+#: functions.php:3740
+#@ dir
+msgid "Date Published"
+msgstr ""
+
+#: functions.php:3741
+#@ dir
+msgid "Alphabetical"
+msgstr ""
+
+#: functions.php:3750
+#@ dir
+msgid "All Categories"
+msgstr ""
+
+#: functions.php:3878
+#@ dir
+msgid "Like This"
+msgstr ""
+
+#: functions.php:4394
+#: functions.php:4396
+#@ dir
+msgid "Prev"
+msgstr ""
+
+#: functions.php:4432
+#: functions.php:4434
+#@ dir
+msgid "Next"
+msgstr ""
+
+#: functions.php:4866
+#@ dir
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:4868
+#@ dir
+msgid "Main sidebar that appears on the right."
+msgstr ""
+
+#: functions.php:4913
+#@ dir
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:4918
+#, php-format
+#@ dir
+msgid "<span>%1$s</span>"
+msgstr ""
+
+#: functions.php:4981
+#@ dir
+msgid "Sorry, We are down for maintenance"
+msgstr ""
+
+#: 404.php:18
+#@ dir
+msgid "Go Back To Home"
+msgstr ""
+
+#: functions.php:5087
+#@ dir
+msgid "Current Page"
+msgstr ""
+
+#: include/admin_functions.php:1202
+#@ dir
+msgid "http://fortawesome.github.io/Font-Awesome/icons/"
+msgstr ""
+
+#: include/page_options.php:123
+#@ dir
+msgid "Choose Sub-header"
+msgstr ""
+
+#: include/page_options.php:132
+#@ dir
+msgid "Revolution Slider"
+msgstr ""
+
+#: include/page_options.php:133
+#@ dir
+msgid "Map"
+msgstr ""
+
+#: include/page_options.php:151
+#: include/shortcodes/media_elements.php:426
+#@ dir
+msgid "Text Align"
+msgstr ""
+
+#: include/page_options.php:329
+#: include/page_options.php:588
+#@ dir
+msgid "http://codecanyon.net/"
+msgstr ""
+
+#: include/page_options.php:810
+#@ dir
+msgid "Page Options"
+msgstr ""
+
+#: include/shortcodes/common_function.php:632
+#: include/shortcodes/common_function.php:665
+#@ dir
+msgid "Read More"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:637
+#@ dir
+msgid "Map Style"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:641
+#@ dir
+msgid "Style 1"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:642
+#@ dir
+msgid "Style 2"
+msgstr ""
+
+#: include/shortcodes/contentblock_elements.php:643
+#@ dir
+msgid "Style 3"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:747
+#: include/theme-components/cs-widgets/widgets.php:698
+#, php-format
+#@ dir
+msgid "%d seconds ago"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:748
+#: include/theme-components/cs-widgets/widgets.php:699
+#, php-format
+#@ dir
+msgid "About a Minute Ago"
+msgid_plural "%d Minutes Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:749
+#: include/shortcodes/loops_function.php:750
+#: include/theme-components/cs-widgets/widgets.php:700
+#: include/theme-components/cs-widgets/widgets.php:701
+#, php-format
+#@ dir
+msgid "About an Hour Ago"
+msgid_plural "%d Hours Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:751
+#: include/theme-components/cs-widgets/widgets.php:702
+#, php-format
+#@ dir
+msgid "About a Day Ago"
+msgid_plural "%d Days Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:752
+#: include/theme-components/cs-widgets/widgets.php:703
+#, php-format
+#@ dir
+msgid "About a Week Ago"
+msgid_plural "%d Weeks Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:753
+#: include/theme-components/cs-widgets/widgets.php:704
+#, php-format
+#@ dir
+msgid "About a Month Ago"
+msgid_plural "%d Months Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/loops_function.php:754
+#: include/theme-components/cs-widgets/widgets.php:705
+#, php-format
+#@ dir
+msgid "About a year Ago"
+msgid_plural "%d years Ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/shortcodes/shortcode_functions.php:393
+#@ dir
+msgid "Pages:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:504
+#@ dir
+msgid "About"
+msgstr ""
+
+#: functions.php:4932
+#: include/shortcodes/shortcode_functions.php:550
+#@ dir
+msgid "Edit"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:688
+#, php-format
+#@ dir
+msgid "%s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:229
+#@ dir
+msgid "Something went wrong."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:239
+#@ dir
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:241
+#@ dir
+msgid "Return to the dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:244
+#, php-format
+#@ dir
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:245
+#@ dir
+msgid "Dismiss this notice"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:589
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2272
+#@ dir
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1267
+#@ dir
+msgid "Private Repository"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1270
+#@ dir
+msgid "Pre-Packaged"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1275
+#@ dir
+msgid "WordPress Repository"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1278
+#@ dir
+msgid "Required"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1278
+#@ dir
+msgid "Recommended"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1281
+#@ dir
+msgid "Not Installed"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1283
+#@ dir
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1501
+#@ dir
+msgid "Install"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1502
+#@ dir
+msgid "Activate"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1480
+#@ dir
+msgid "Plugin"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1481
+#@ dir
+msgid "Source"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1482
+#@ dir
+msgid "Type"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1483
+#@ dir
+msgid "Status"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1740
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:243
+#@ dir
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2037
+#@ dir
+msgid "Install package not available."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2038
+#, php-format
+#@ dir
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2039
+#@ dir
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2040
+#@ dir
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2041
+#@ dir
+msgid "Plugin install failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2042
+#@ dir
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2053
+#@ dir
+msgid "Plugin activation failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2170
+#@ dir
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2171
+#, php-format
+#@ dir
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2171
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2178
+#@ dir
+msgid "Show Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2171
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2178
+#@ dir
+msgid "Hide Details"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2172
+#@ dir
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2173
+#, php-format
+#@ dir
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2177
+#@ dir
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2165
+#, php-format
+#@ dir
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2166
+#, php-format
+#@ dir
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2178
+#, php-format
+#@ dir
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2179
+#@ dir
+msgid "All installations have been completed."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:2180
+#, php-format
+#@ dir
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:289
+#@ dir
+msgid "Post an Ad"
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:300
+#@ dir
+msgid "Login to add new listings."
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:424
+#@ dir
+msgid "User name should not be empty."
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:427
+#@ dir
+msgid "Password should not be empty."
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:432
+#@ dir
+msgid "Wrong username or password."
+msgstr ""
+
+#: include/theme-components/cs-header/header_functions.php:434
+#@ dir
+msgid "Login successful"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:41
+#: include/theme-components/cs-importer/parsers.php:62
+#@ dir
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:42
+#@ dir
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: include/theme-components/cs-importer/parsers.php:66
+#: include/theme-components/cs-importer/parsers.php:71
+#: include/theme-components/cs-importer/parsers.php:261
+#: include/theme-components/cs-importer/parsers.php:450
+#@ dir
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:43
+#@ dir
+msgid "Error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:47
+#: include/theme-components/cs-importer/wordpress-importer.php:131
+#: include/theme-components/cs-importer/wordpress-importer.php:145
+#: include/theme-components/cs-importer/wordpress-importer.php:206
+#: include/theme-components/cs-importer/wordpress-importer.php:210
+#: include/theme-components/cs-importer/wordpress-importer.php:219
+#@ dir
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: include/theme-components/cs-importer/theme_importer.php:48
+#: include/theme-components/cs-importer/wordpress-importer.php:132
+#@ dir
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:105
+#@ dir
+msgid "Please Wait!! We are fetching dummy data for you. It can take 2 to 10 minutes depending upon data speed.."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:185
+#@ dir
+msgid "All done."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:185
+#@ dir
+msgid "Have fun!"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:186
+#@ dir
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:211
+#, php-format
+#@ dir
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:227
+#, php-format
+#@ dir
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:250
+#, php-format
+#@ dir
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:276
+#@ dir
+msgid "Assign Authors"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:277
+#@ dir
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:279
+#, php-format
+#@ dir
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:289
+#@ dir
+msgid "Import Attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:292
+#@ dir
+msgid "Download and import file attachments"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:308
+#@ dir
+msgid "Import author:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:319
+#@ dir
+msgid "or create new user with login name:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:322
+#@ dir
+msgid "as a new user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:330
+#@ dir
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:332
+#@ dir
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:333
+#@ dir
+msgid "- Select -"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:383
+#, php-format
+#@ dir
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:431
+#, php-format
+#@ dir
+msgid "Failed to import category %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:468
+#, php-format
+#@ dir
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:511
+#: include/theme-components/cs-importer/wordpress-importer.php:636
+#, php-format
+#@ dir
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:532
+#, php-format
+#@ dir
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:553
+#, php-format
+#@ dir
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:608
+#, php-format
+#@ dir
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:751
+#@ dir
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:758
+#, php-format
+#@ dir
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:844
+#@ dir
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:857
+#@ dir
+msgid "Invalid file type"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:900
+#@ dir
+msgid "Remote server did not respond"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:906
+#, php-format
+#@ dir
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:913
+#@ dir
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:918
+#@ dir
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:924
+#, php-format
+#@ dir
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1021
+#@ dir
+msgid "Import WordPress"
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1043
+#@ dir
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1044
+#@ dir
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: include/theme-components/cs-mailchimp/mailchimp_functions.php:32
+#@ dir
+msgid "Signup weekly newsletter"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:59
+#, php-format
+#@ dir
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:63
+#, php-format
+#@ dir
+msgid "%s (Pending)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:85
+#@ dir
+msgid "Move up"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:98
+#@ dir
+msgid "Move down"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:100
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:102
+#@ dir
+msgid "Edit Menu Item"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:117
+#@ dir
+msgid "Navigation Label"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:123
+#@ dir
+msgid "Title Attribute"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:130
+#@ dir
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:135
+#@ dir
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:141
+#@ dir
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:147
+#@ dir
+msgid "Description"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:150
+#@ dir
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:159
+#@ dir
+msgid "Active Mega Menu"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:167
+#@ dir
+msgid "hide text"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:175
+#@ dir
+msgid "disable link"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:189
+#, php-format
+#@ dir
+msgid "Original: %s"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:154
+#: include/shortcodes/loops_elements.php:351
+#: include/shortcodes/shortcode_functions.php:1841
+#: include/shortcodes/shortcode_functions.php:1989
+#: include/shortcodes/shortcode_functions.php:2045
+#: include/shortcodes/shortcode_functions.php:2087
+#: include/shortcodes/shortcode_functions.php:2135
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:203
+#@ dir
+msgid "Remove"
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:203
+#@ dir
+msgid "Cancel"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:365
+#: include/theme-components/cs-widgets/widgets.php:393
+#: include/theme-components/cs-widgets/widgets.php:1186
+#@ dir
+msgid "No result found."
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:398
+#@ dir
+msgid "Please Enter Flickr API key from Theme Options."
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:987
+#@ dir
+msgid "An error Occured, please try again later."
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:1319
+#@ dir
+msgid "Search Result Page"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:1321
+#@ dir
+msgid "Select Page"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:1580
+#@ dir
+msgid "Sticky"
+msgstr ""
+
+#: include/theme-options/theme_options.php:13
+#@ dir
+msgid "Saving changes..."
+msgstr ""
+
+#: searchform.php:9
+#@ dir
+msgid "Enter Title, Keyword, Company"
+msgstr ""
+
+#: single.php:241
+#@ dir
+msgid "Attachments"
+msgstr ""
+
+#: single.php:304
+#@ dir
+msgid "Share"
+msgstr ""
+
+#: include/page_options.php:51
+#: single.php:323
+#@ dir
+msgid "Related Posts"
+msgstr ""
+
+#: 404.php:12
+#@ dir
+msgid "404"
+msgstr ""
+
+#: 404.php:15
+#@ dir
+msgid ""
+"Apologies!!.. We are really working hard towards to fix the problem!!.. We will be get back you soon!!..\n"
+"                    Keep in touch!!!.."
+msgstr ""
+
+#: archive.php:170
+#: cs-templates/blog-styles/blog_templates.php:99
+#: cs-templates/blog-styles/blog_templates.php:198
+#: cs-templates/blog-styles/blog_templates.php:301
+#: index.php:83
+#@ dir
+msgid "Posted On"
+msgstr ""
+
+#: archive.php:176
+#: index.php:90
+#@ dir
+msgid "In"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:60
+#: include/shortcodes/loops_elements.php:71
+#: include/shortcodes/loops_elements.php:312
+#: include/shortcodes/loops_elements.php:560
+#: include/shortcodes/media_elements.php:64
+#: include/shortcodes/media_elements.php:191
+#: include/shortcodes/media_elements.php:348
+#: include/shortcodes/typography_elements.php:331
+#: include/shortcodes/typography_elements.php:442
+#: include/shortcodes/typography_elements.php:937
+#: include/shortcodes/typography_elements.php:1156
+#: include/shortcodes/typography_elements.php:1397
+#: include/shortcodes/typography_elements.php:1637
+#: include/shortcodes/typography_elements.php:1781
+#@ dir
+msgid "Section Title"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:67
+#@ dir
+msgid "Choose Category"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:73
+#: include/shortcodes/loops_elements.php:576
+#@ dir
+msgid "-- Select Category --"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:79
+#: cs-templates/blog-styles/blog_element.php:103
+#@ dir
+msgid "Please select category to show posts. If you dont select category it will display all posts."
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:85
+#@ dir
+msgid "Blog Design Views"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:110
+#: include/shortcodes/loops_elements.php:586
+#@ dir
+msgid "Post Order"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:116
+#: include/shortcodes/loops_elements.php:592
+#@ dir
+msgid "asc"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:117
+#: include/shortcodes/loops_elements.php:593
+#@ dir
+msgid "DESC"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:125
+#: include/shortcodes/loops_elements.php:601
+#@ dir
+msgid "Post Description"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:155
+#: include/shortcodes/loops_elements.php:616
+#@ dir
+msgid "Length of Excerpt"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:162
+#@ dir
+msgid "Enter number of character for short description text."
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:169
+#: include/shortcodes/loops_elements.php:630
+#@ dir
+msgid "No. of Post Per Page"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:176
+#@ dir
+msgid "To display all the records, leave this field blank."
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:182
+#@ dir
+msgid "Pagination"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:186
+#@ dir
+msgid "Show Pagination"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:187
+#@ dir
+msgid "Single Page"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_element.php:198
+#: include/shortcodes/typography_elements.php:123
+#: include/shortcodes/typography_elements.php:243
+#: include/shortcodes/typography_elements.php:1541
+#: include/shortcodes/typography_elements.php:1704
+#: include/shortcodes/typography_elements.php:1846
+#@ dir
+msgid "Insert"
+msgstr ""
+
+#: cs-templates/blog-styles/blog_templates.php:304
+#: cs-templates/blog-styles/blog_templates.php:424
+#: cs-templates/blog-styles/blog_templates.php:527
+#: cs-templates/blog-styles/blog_templates.php:624
+#: cs-templates/blog-styles/blog_templates.php:756
+#: cs-templates/blog-styles/blog_templates.php:817
+#: include/theme-components/cs-widgets/widgets.php:1179
+#: single.php:398
+#@ dir
+msgid "Posted by"
+msgstr ""
+
+#: footer.php:42
+#@ dir
+msgid "Join Box Theme Newsletter be always Up to Date"
+msgstr ""
+
+#: footer.php:67
+#@ dir
+msgid "All rights reserved"
+msgstr ""
+
+#: functions.php:3672
+#: functions.php:3707
+#@ dir
+msgid "No Tags Found."
+msgstr ""
+
+#: functions.php:4044
+#: page_contact_submit.php:22
+#@ dir
+msgid "Name:"
+msgstr ""
+
+#: functions.php:4048
+#: page_contact_submit.php:26
+#@ dir
+msgid "Email:"
+msgstr ""
+
+#: functions.php:4056
+#: page_contact_submit.php:34
+#@ dir
+msgid "Message:"
+msgstr ""
+
+#: functions.php:4855
+#@ dir
+msgid "This widget will be displayed on right/left side of the page."
+msgstr ""
+
+#: functions.php:4882
+#@ dir
+msgid "This Widget Show the Content in Footer Area."
+msgstr ""
+
+#: functions.php:4982
+#@ dir
+msgid "We're currently under maintenance, if all goes as planned we'll be back in"
+msgstr ""
+
+#: functions.php:5457
+#@ dir
+msgid " Items"
+msgstr ""
+
+#: functions.php:5457
+#@ dir
+msgid "0 Items"
+msgstr ""
+
+#: include/admin_functions.php:201
+#@ dir
+msgid "Filter by"
+msgstr ""
+
+#: include/admin_functions.php:203
+#: include/shortcodes/shortcode_functions.php:1680
+#@ dir
+msgid "Show all"
+msgstr ""
+
+#: include/admin_functions.php:580
+#: include/shortcodes/common_elements.php:881
+#: include/shortcodes/loops_elements.php:110
+#: include/shortcodes/shortcode_functions.php:1756
+#: include/shortcodes/shortcode_functions.php:1794
+#: include/shortcodes/shortcode_functions.php:1957
+#: include/shortcodes/shortcode_functions.php:2339
+#@ dir
+msgid "Custom Id"
+msgstr ""
+
+#: include/admin_functions.php:630
+#@ dir
+msgid "Add New Sidebar"
+msgstr ""
+
+#: include/admin_functions.php:630
+#: include/page_options.php:768
+#: include/page_options.php:793
+#@ dir
+msgid "Click Here"
+msgstr ""
+
+#: include/admin_functions.php:635
+#: include/page_options.php:774
+#@ dir
+msgid "Select Right Sidebar"
+msgstr ""
+
+#: include/page_builder.php:247
+#: include/post_meta.php:46
+#: include/theme-components/cs-woocommerce/product_meta.php:23
+#@ dir
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#: include/page_builder.php:248
+#@ dir
+msgid "Subheader"
+msgstr "الرأس الفرعي"
+
+#: include/page_options.php:27
+#@ dir
+msgid "Social Sharing"
+msgstr ""
+
+#: include/page_options.php:63
+#@ dir
+msgid "Next Previous"
+msgstr ""
+
+#: include/page_options.php:75
+#@ dir
+msgid "Show Author"
+msgstr ""
+
+#: include/page_options.php:130
+#@ dir
+msgid "Default Sub header"
+msgstr ""
+
+#: include/page_options.php:131
+#@ dir
+msgid "Custom Sub header"
+msgstr ""
+
+#: include/page_options.php:134
+#@ dir
+msgid "No Sub header"
+msgstr ""
+
+#: include/page_options.php:167
+#: include/shortcodes/loops_elements.php:157
+#: include/shortcodes/loops_elements.php:355
+#: include/shortcodes/media_elements.php:242
+#: include/shortcodes/media_elements.php:393
+#: include/shortcodes/typography_elements.php:710
+#: include/shortcodes/typography_elements.php:1165
+#@ dir
+msgid "Title"
+msgstr ""
+
+#: include/page_options.php:178
+#@ dir
+msgid "Sub Heading"
+msgstr ""
+
+#: include/page_options.php:188
+#@ dir
+msgid "Breadcrumbs"
+msgstr ""
+
+#: include/page_options.php:199
+#@ dir
+msgid "Padding"
+msgstr ""
+
+#: include/page_options.php:214
+#@ dir
+msgid "Padding Top"
+msgstr ""
+
+#: include/page_options.php:218
+#@ dir
+msgid "Set the top padding (In PX)"
+msgstr ""
+
+#: include/page_options.php:222
+#@ dir
+msgid "Padding Bottom"
+msgstr ""
+
+#: include/page_options.php:226
+#@ dir
+msgid "Set the bottom padding (In PX)"
+msgstr ""
+
+#: include/page_options.php:232
+#: include/page_options.php:487
+#: include/page_options.php:615
+#: include/page_options.php:850
+#: include/shortcodes/loops_elements.php:165
+#: include/shortcodes/loops_elements.php:379
+#: include/shortcodes/typography_elements.php:480
+#: include/shortcodes/typography_elements.php:598
+#: include/shortcodes/typography_elements.php:1256
+#@ dir
+msgid "Background Color"
+msgstr ""
+
+#: include/page_options.php:242
+#: include/shortcodes/loops_elements.php:371
+#: include/shortcodes/typography_elements.php:1248
+#: include/shortcodes/typography_elements.php:1436
+#: include/shortcodes/typography_elements.php:1664
+#@ dir
+msgid "Text Color"
+msgstr ""
+
+#: include/page_options.php:252
+#@ dir
+msgid "Border Color"
+msgstr ""
+
+#: include/page_options.php:264
+#@ dir
+msgid "Show Image"
+msgstr ""
+
+#: include/page_options.php:275
+#: include/page_options.php:440
+#: include/page_options.php:596
+#: include/shortcodes/media_elements.php:356
+#: include/shortcodes/shortcode_functions.php:2213
+#@ dir
+msgid "Background Image"
+msgstr ""
+
+#: include/page_options.php:297
+#@ dir
+msgid "Parallax background Image"
+msgstr ""
+
+#: include/page_options.php:310
+#@ dir
+msgid "Select Slider"
+msgstr ""
+
+#: include/page_options.php:329
+#: include/page_options.php:588
+#@ dir
+msgid "Please select Revolution Slider if already included in package. Otherwise buy Sliders from"
+msgstr ""
+
+#: include/page_options.php:329
+#: include/page_options.php:588
+#@ dir
+msgid "Code canyon"
+msgstr ""
+
+#: include/page_options.php:329
+#: include/page_options.php:588
+#@ dir
+msgid "But its optional"
+msgstr ""
+
+#: include/page_options.php:335
+#@ dir
+msgid "Select Slider Position"
+msgstr ""
+
+#: include/page_options.php:350
+#@ dir
+msgid "Custom Map Short Code"
+msgstr ""
+
+#: include/page_options.php:357
+#@ dir
+msgid "Please Add/Edit the short code for Map."
+msgstr ""
+
+#: include/page_options.php:365
+#@ dir
+msgid "Header Border Color"
+msgstr ""
+
+#: include/page_options.php:390
+#@ dir
+msgid "Background View"
+msgstr ""
+
+#: include/page_options.php:423
+#@ dir
+msgid "Choose Mute"
+msgstr ""
+
+#: include/page_options.php:458
+#@ dir
+msgid "Chose Slider/Gallery"
+msgstr ""
+
+#: include/page_options.php:480
+#@ dir
+msgid "Slider/Gallery images resolution should be full size. Create new Slider/Gallery from"
+msgstr ""
+
+#: include/page_options.php:480
+#@ dir
+msgid "here"
+msgstr ""
+
+#: include/page_options.php:509
+#@ dir
+msgid "seo title"
+msgstr ""
+
+#: include/page_options.php:519
+#@ dir
+msgid "seo Description"
+msgstr ""
+
+#: include/page_options.php:554
+#@ dir
+msgid "Header Background"
+msgstr ""
+
+#: include/page_options.php:639
+#@ dir
+msgid "Custom Classes"
+msgstr ""
+
+#: include/page_options.php:649
+#@ dir
+msgid "Custom IDs"
+msgstr ""
+
+#: include/page_options.php:659
+#@ dir
+msgid "Sub Header Color"
+msgstr ""
+
+#: include/page_options.php:669
+#@ dir
+msgid "Header Color"
+msgstr ""
+
+#: include/page_options.php:722
+#@ dir
+msgid "Choose Sidebar"
+msgstr ""
+
+#: include/page_options.php:745
+#@ dir
+msgid "Select Left Sidebar"
+msgstr ""
+
+#: include/page_options.php:768
+#: include/page_options.php:793
+#@ dir
+msgid "Add New Sidebar."
+msgstr ""
+
+#: include/page_options.php:817
+#@ dir
+msgid "default"
+msgstr ""
+
+#: include/page_options.php:860
+#@ dir
+msgid "Background Skin"
+msgstr ""
+
+#: include/post_meta.php:47
+#: include/theme-components/cs-woocommerce/product_meta.php:24
+#@ dir
+msgid "Sub Header Options"
+msgstr ""
+
+#: include/page_builder.php:250
+#: include/post_meta.php:49
+#: include/theme-components/cs-woocommerce/product_meta.php:26
+#: include/theme-components/cs-woocommerce/product_meta.php:42
+#@ dir
+msgid "Seo Options"
+msgstr ""
+
+#: include/post_meta.php:51
+#@ dir
+msgid "Post Settings"
+msgstr ""
+
+#: include/post_meta.php:169
+#@ dir
+msgid "Thumbnail View"
+msgstr ""
+
+#: include/post_meta.php:174
+#: include/post_meta.php:220
+#@ dir
+msgid "Single Image"
+msgstr ""
+
+#: include/post_meta.php:175
+#: include/post_meta.php:223
+#@ dir
+msgid "Slider"
+msgstr ""
+
+#: include/post_meta.php:176
+#: include/post_meta.php:221
+#@ dir
+msgid "Audio"
+msgstr ""
+
+#: include/post_meta.php:177
+#@ dir
+msgid "Soundcloud"
+msgstr ""
+
+#: include/post_meta.php:182
+#: include/post_meta.php:228
+#@ dir
+msgid "Use Featured Image as Thumbnail"
+msgstr ""
+
+#: include/post_meta.php:206
+#@ directory
+msgid "Enter Specific Soundcloud url"
+msgstr ""
+
+#: include/post_meta.php:215
+#@ dir
+msgid "Inside Post Thumbnail View"
+msgstr ""
+
+#: include/post_meta.php:222
+#@ dir
+msgid "Video/Soundcloud"
+msgstr ""
+
+#: include/shortcodes/common_elements.php:1705
+#: include/shortcodes/contentblock_elements.php:824
+#: include/shortcodes/media_elements.php:409
+#: include/shortcodes/shortcode_functions.php:2709
+#@ dir
+msgid "Contents"
+msgstr ""
+
+#: include/shortcodes/contentblock_function.php:199
+#@ dir
+msgid "Map View"
+msgstr ""
+
+#: include/shortcodes/contentblock_function.php:200
+#@ dir
+msgid "Street View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:62
+#@ dir
+msgid "Edit Clients Options"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:78
+#: include/shortcodes/loops_elements.php:319
+#: include/shortcodes/typography_elements.php:1790
+#@ dir
+msgid "View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:82
+#@ dir
+msgid "Grid View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:83
+#@ dir
+msgid "Slider View"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:89
+#@ dir
+msgid "Gray Scale"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:100
+#: include/shortcodes/shortcode_functions.php:1919
+#@ dir
+msgid "Border"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:105
+#@ dir
+msgid "no"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:116
+#: include/shortcodes/shortcode_functions.php:1764
+#: include/shortcodes/shortcode_functions.php:1767
+#: include/shortcodes/shortcode_functions.php:1802
+#: include/shortcodes/shortcode_functions.php:1963
+#: include/shortcodes/typography_elements.php:824
+#@ dir
+msgid "Animation Class"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:120
+#: include/shortcodes/shortcode_functions.php:1805
+#: include/shortcodes/shortcode_functions.php:1966
+#: include/shortcodes/typography_elements.php:829
+#@ dir
+msgid "Select Animation"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:153
+#@ dir
+msgid "Clients"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:186
+#@ dir
+msgid "Client Logo"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:217
+#@ dir
+msgid "Add Client"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:303
+#@ dir
+msgid "Edit Multiple services Options"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:323
+#@ dir
+msgid "Default 3 Grid"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:324
+#@ dir
+msgid "Default 4 Grid"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:325
+#@ dir
+msgid "Classic"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:326
+#@ dir
+msgid "Flat 2 Column"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:327
+#@ dir
+msgid "Flat 3 Column"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:328
+#@ dir
+msgid "Box"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:350
+#@ dir
+msgid "Multiple services"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:363
+#: include/shortcodes/media_elements.php:401
+#: include/shortcodes/typography_elements.php:1239
+#@ dir
+msgid "Title Color"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:400
+#@ dir
+msgid "Multiple service Logo"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:422
+#@ dir
+msgid "Text:"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:428
+#: include/shortcodes/shortcode_functions.php:2030
+#: include/shortcodes/typography_elements.php:232
+#: include/shortcodes/typography_elements.php:344
+#: include/shortcodes/typography_elements.php:1692
+#@ dir
+msgid "Enter your content"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:435
+#@ dir
+msgid "View More Button"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:443
+#: include/shortcodes/typography_elements.php:1223
+#@ dir
+msgid "Button Link"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:451
+#: include/shortcodes/media_elements.php:454
+#@ dir
+msgid "Button Background Color"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:459
+#@ dir
+msgid "Button Text Color"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:476
+#@ dir
+msgid "Add Multiple service"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:554
+#@ dir
+msgid "Edit Content Slider Options"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:570
+#@ dir
+msgid "Select Category"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:623
+#@ dir
+msgid "Enter number of character for short description text"
+msgstr ""
+
+#: include/shortcodes/loops_function.php:385
+#@ dir
+msgid "Select Media"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:58
+#@ dir
+msgid "Edit Video Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:67
+#: include/shortcodes/media_elements.php:194
+#: include/shortcodes/media_elements.php:351
+#: include/shortcodes/typography_elements.php:335
+#: include/shortcodes/typography_elements.php:446
+#: include/shortcodes/typography_elements.php:941
+#: include/shortcodes/typography_elements.php:1160
+#: include/shortcodes/typography_elements.php:1401
+#: include/shortcodes/typography_elements.php:1641
+#: include/shortcodes/typography_elements.php:1785
+#@ dir
+msgid "This is used for the one page navigation, to identify the section below. Give a title"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:81
+#@ dir
+msgid "Width"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:85
+#@ dir
+msgid "Add a width in pix, If you want to override the default"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:90
+#: include/shortcodes/typography_elements.php:107
+#@ dir
+msgid "Height"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:94
+#@ dir
+msgid "Provide height in px, if you want to override the default"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:185
+#@ dir
+msgid "Edit Image Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:199
+#@ dir
+msgid "Image Style"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:212
+#@ dir
+msgid "Image url"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:218
+#@ dir
+msgid "Browse the image"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:250
+#@ dir
+msgid "Caption"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:254
+#@ dir
+msgid "If you would like a caption to be shown below the image, add it here."
+msgstr ""
+
+#: include/shortcodes/media_elements.php:342
+#@ dir
+msgid "Edit Promo Box Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:363
+#@ dir
+msgid "Promo Box Background image here"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:382
+#@ dir
+msgid "Background Repeat"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:413
+#: include/shortcodes/typography_elements.php:493
+#: include/shortcodes/typography_elements.php:732
+#: include/shortcodes/typography_elements.php:1293
+#@ dir
+msgid "Enter content here"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:418
+#: include/shortcodes/typography_elements.php:813
+#@ dir
+msgid "Content Color"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:437
+#@ dir
+msgid "Link Title"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:445
+#@ dir
+msgid "Link url"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:449
+#@ dir
+msgid "Give External/Internal Promo Box url"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:548
+#@ dir
+msgid "Edit Slider Options"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:554
+#@ dir
+msgid "Slider Section Title"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:561
+#: include/shortcodes/shortcode_elements.php:63
+#@ dir
+msgid "Please enter slider header title."
+msgstr ""
+
+#: include/shortcodes/media_elements.php:567
+#@ dir
+msgid "Chose Slider"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:50
+#@ dir
+msgid "Edit Post Slider Options"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:56
+#@ dir
+msgid "Slider Header Title"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:69
+#@ dir
+msgid "Chose Slider Type"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:75
+#@ dir
+msgid "Post Slider"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:76
+#@ dir
+msgid "Flex Slider"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:77
+#: include/shortcodes/shortcode_elements.php:106
+#@ dir
+msgid "Custom Slider"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:126
+#@ dir
+msgid "Use Short Code"
+msgstr ""
+
+#: include/shortcodes/shortcode_elements.php:133
+#@ dir
+msgid "Please enter the Revolution/Other Slider Short Code like [rev_slider 1]"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:524
+#@ dir
+msgid "View All Posts"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1664
+#@ dir
+msgid "Add Element"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1676
+#@ dir
+msgid "Search"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1759
+#@ dir
+msgid "Use this option if you want to use specified Class for this element"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1780
+#: include/shortcodes/shortcode_functions.php:1819
+#: include/shortcodes/typography_elements.php:842
+#@ dir
+msgid "Select Entrance animation type from the dropdown"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1797
+#@ dir
+msgid "Use this option if you want to use specified id for this element"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1839
+#@ dir
+msgid "Service"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1846
+#@ dir
+msgid "Service Title"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1848
+#@ dir
+msgid "Title of the Service"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1852
+#@ dir
+msgid "Service View:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1854
+#@ dir
+msgid "Large Boxed"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1855
+#@ dir
+msgid "Large Normal"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1856
+#: include/shortcodes/shortcode_functions.php:1884
+#@ dir
+msgid "Circle"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1857
+#@ dir
+msgid "Medium"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1858
+#@ dir
+msgid "Small"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1860
+#@ dir
+msgid "Type of the Service"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1870
+#@ dir
+msgid "Icon Postion"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1873
+#@ dir
+msgid "left"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1874
+#@ dir
+msgid "Right"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1875
+#@ dir
+msgid "Top"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1876
+#@ dir
+msgid "Center"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1881
+#@ dir
+msgid "Icon Type"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1885
+#@ dir
+msgid "Square"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1891
+#@ dir
+msgid "Service background  Image"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1928
+#@ dir
+msgid "Service Text:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1936
+#@ dir
+msgid "Divider"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1945
+#: include/shortcodes/typography_elements.php:1206
+#@ dir
+msgid "Icon Color"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1951
+#@ dir
+msgid "Icon Background Color"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1988
+#@ dir
+msgid "Accordion"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1992
+#: include/shortcodes/shortcode_functions.php:2048
+#: include/shortcodes/shortcode_functions.php:2138
+#@ dir
+msgid "Active"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1998
+#: include/shortcodes/shortcode_functions.php:2147
+#@ dir
+msgid "You can set the section that is active here by select dropdown"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2003
+#@ dir
+msgid "Accordion Title:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2009
+#@ dir
+msgid "Enter accordion title"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2024
+#@ dir
+msgid "Accordion Text:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2044
+#@ dir
+msgid "FAQ"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2056
+#@ dir
+msgid "Faq Title:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2070
+#@ dir
+msgid "Faq Text:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2086
+#@ dir
+msgid "Register"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2090
+#@ dir
+msgid "Register Title:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2099
+#@ dir
+msgid "User Role:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2103
+#@ dir
+msgid "subscriber"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2103
+#@ dir
+msgid "Subscriber"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2104
+#@ dir
+msgid "staff"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2104
+#@ dir
+msgid "Staff"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2105
+#@ dir
+msgid "member"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2105
+#@ dir
+msgid "Member"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2106
+#@ dir
+msgid "instructor"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2106
+#@ dir
+msgid "Instructor"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2107
+#@ dir
+msgid "customer"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2107
+#@ dir
+msgid "Customer"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2108
+#@ dir
+msgid "contributor"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2108
+#@ dir
+msgid "Contributor"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2109
+#@ dir
+msgid "author"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2110
+#@ dir
+msgid "editor"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2110
+#@ dir
+msgid "Editor"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2111
+#@ dir
+msgid "administrator"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2111
+#@ dir
+msgid "Administrator"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2118
+#@ dir
+msgid "Register Text:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2134
+#@ dir
+msgid "Tab"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2143
+#@ dir
+msgid "yes"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2152
+#@ dir
+msgid "Tab Title:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2169
+#@ dir
+msgid "Tab Text:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2175
+#: include/shortcodes/shortcode_functions.php:2187
+#: include/shortcodes/shortcode_functions.php:2188
+#: include/shortcodes/shortcode_functions.php:2191
+#: include/shortcodes/shortcode_functions.php:2199
+#@ dir
+msgid "Enter tab body content here"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2205
+#@ dir
+msgid "Company:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2208
+#: include/shortcodes/typography_elements.php:1498
+#@ dir
+msgid "Company Name"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:61
+#: include/shortcodes/typography_elements.php:451
+#: include/shortcodes/typography_elements.php:737
+#: include/shortcodes/typography_elements.php:1406
+#@ dir
+msgid "Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:65
+#@ dir
+msgid "Crossy"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:66
+#: include/shortcodes/typography_elements.php:1269
+#@ dir
+msgid "Plain"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:67
+#@ dir
+msgid "Zigzag"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:68
+#@ dir
+msgid "Small Zigzag"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:69
+#@ dir
+msgid "3 Box"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:75
+#@ dir
+msgid "Back to Top"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:82
+#@ dir
+msgid "set back to top from the dropdown"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:87
+#@ dir
+msgid "Margin Top"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:92
+#@ dir
+msgid "set margin top for the divider in px"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:97
+#@ dir
+msgid "Margin Bottom"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:102
+#@ dir
+msgid "set a margin bottom for the divider in px"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:112
+#@ dir
+msgid "set the divider height"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:198
+#@ dir
+msgid "Edit Tooltip Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:207
+#: include/shortcodes/typography_elements.php:215
+#@ dir
+msgid "Hover Title"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:228
+#: include/shortcodes/typography_elements.php:488
+#: include/shortcodes/typography_elements.php:608
+#: include/shortcodes/typography_elements.php:726
+#@ dir
+msgid "Content"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:320
+#@ dir
+msgid "Edit Flex Column Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:340
+#@ dir
+msgid "Column Text"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:432
+#@ dir
+msgid "Edit Drop Cap Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:462
+#: include/shortcodes/typography_elements.php:752
+#@ dir
+msgid "Font Size"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:467
+#@ dir
+msgid "add your font size for the drop cap text"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:472
+#: include/shortcodes/typography_elements.php:588
+#@ dir
+msgid "Color"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:579
+#@ dir
+msgid "Edit Highlight Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:593
+#: include/shortcodes/typography_elements.php:603
+#: include/shortcodes/typography_elements.php:1669
+#@ dir
+msgid "Provide a hex colour code here (include #) if you want to override the default"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:613
+#@ dir
+msgid "Enter the content"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:700
+#@ dir
+msgid "Edit Heading Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:718
+#@ dir
+msgid "Color Title"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:759
+#@ dir
+msgid "add font size number for the heading"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:764
+#: include/shortcodes/typography_elements.php:1423
+#: include/shortcodes/typography_elements.php:1675
+#@ dir
+msgid "Align"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:772
+#: include/shortcodes/typography_elements.php:1683
+#@ dir
+msgid "Align the content position"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:777
+#@ dir
+msgid "Divider On/Off"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:784
+#@ dir
+msgid "set divider on/off for the list bottom border"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:789
+#@ dir
+msgid "Font Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:797
+#@ dir
+msgid "select a font style from the drop down"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:802
+#@ dir
+msgid "Heading Color"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:807
+#@ dir
+msgid "heading color for the heading element"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:818
+#@ dir
+msgid "set a content color for the heading element"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:926
+#@ dir
+msgid "Edit List Style Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:946
+#@ dir
+msgid "List Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:958
+#@ dir
+msgid "set a list style from the dropdown"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:963
+#@ dir
+msgid "Border Bottom"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:970
+#@ dir
+msgid "set on/off for the list bottom border"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:994
+#@ dir
+msgid "List Item"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:999
+#@ dir
+msgid "List Item:"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1030
+#@ dir
+msgid "Add List Item"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1148
+#@ dir
+msgid "Edit Message Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1173
+#@ dir
+msgid "Message Type"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1178
+#@ dir
+msgid "Alert"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1179
+#: include/shortcodes/typography_function.php:475
+#@ dir
+msgid "Message"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1181
+#@ dir
+msgid "Select the display type for the Message"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1186
+#@ dir
+msgid "Message Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1191
+#@ dir
+msgid "Normal"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1192
+#@ dir
+msgid "3D Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1215
+#@ dir
+msgid "Button Text"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1231
+#@ dir
+msgid "Message Box Title"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1264
+#@ dir
+msgid "Style Type"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1268
+#@ dir
+msgid "Fancy"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1275
+#@ dir
+msgid "Close Button"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1283
+#@ dir
+msgid "Set close button on/off"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1289
+#: include/shortcodes/typography_elements.php:1471
+#@ dir
+msgid "Text"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1387
+#@ dir
+msgid "Edit Testimonials Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1417
+#@ dir
+msgid "Testimonial Style"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1431
+#@ dir
+msgid "This will not apply in Slider View"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1466
+#@ dir
+msgid "Testimonial"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1491
+#@ dir
+msgid "Company"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1504
+#@ dir
+msgid "Image"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1536
+#@ dir
+msgid "Add testimonials"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1627
+#@ dir
+msgid "Edit Quote Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1650
+#@ dir
+msgid "give the name of the author"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1688
+#@ dir
+msgid "Quote Content"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1774
+#@ dir
+msgid "Edit Contact Form Options"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1801
+#@ dir
+msgid "Label On/Off"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1805
+#@ dir
+msgid "On"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1806
+#@ dir
+msgid "Off"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1812
+#@ dir
+msgid "Send To"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1816
+#@ dir
+msgid "add a email which you want to receive email"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1821
+#@ dir
+msgid "Success Message"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1825
+#@ dir
+msgid "set a message if your email sent successfully"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1830
+#@ dir
+msgid "Error Message"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1834
+#@ dir
+msgid "set a message for error message"
+msgstr ""
+
+#: include/shortcodes/typography_function.php:476
+#@ dir
+msgid "Submit Now"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1399
+#, php-format
+#@ dir
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1421
+#, php-format
+#@ dir
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1464
+#, php-format
+#@ dir
+msgid "No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1613
+#@ dir
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: include/theme-components/cs-activation-plugins/tgm_plugin_activation.php:1718
+#@ dir
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: include/theme-components/cs-importer/wordpress-importer.php:1028
+#@ dir
+msgid "A new version of this importer is available. Please update to version % to ensure compatibility with newer export files."
+msgstr ""
+
+#: include/theme-components/cs-mega-menu/edit_custom_walker.php:110
+#@ dir
+msgid "url"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:368
+#: include/theme-components/cs-widgets/widgets.php:372
+#@ dir
+msgid "Error:"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:1178
+#@ dir
+msgid "on"
+msgstr ""
+
+#: include/theme-options/theme_options.php:1990
+#, php-format
+#@ directory
+msgid "Featured Ad Price %s"
+msgstr ""
+
+#: page_contact_submit.php:38
+#@ dir
+msgid "IP Address:"
+msgstr ""
+
+#: search.php:41
+#@ dir
+msgid "Featured:"
+msgstr ""
+
+#: comments.php:12
+#@ dir
+msgid "Comment"
+msgstr ""
+
+#: comments.php:12
+#@ dir
+msgid "Comments"
+msgstr ""
+
+#: comments.php:37
+#@ dir
+msgid "You must be  to post a comment."
+msgstr ""
+
+#: functions.php:3378
+#@ dir
+msgid "It seems we can&quote find what you&rsquo;re looking for Perhaps searching can help"
+msgstr ""
+
+#: include/page_options.php:410
+#: include/shortcodes/media_elements.php:72
+#@ dir
+msgid "Video Url"
+msgstr ""
+
+#: include/page_options.php:417
+#@ dir
+msgid "Please enter Vimeo/Youtube Video Url."
+msgstr ""
+
+#: include/page_options.php:529
+#@ dir
+msgid "Seo Keywords"
+msgstr ""
+
+#: include/shortcodes/loops_elements.php:173
+#: include/shortcodes/loops_elements.php:387
+#@ dir
+msgid "Website Url"
+msgstr ""
+
+#: include/shortcodes/media_elements.php:76
+#@ dir
+msgid "give the video Url here"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1864
+#: include/shortcodes/shortcode_functions.php:2014
+#: include/shortcodes/shortcode_functions.php:2064
+#: include/shortcodes/shortcode_functions.php:2160
+#: include/shortcodes/typography_elements.php:1010
+#: include/shortcodes/typography_elements.php:1198
+#@ dir
+msgid "Font awsome Icon:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1913
+#@ dir
+msgid "Service Link Url:"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:1915
+#@ dir
+msgid "Service Link Url"
+msgstr ""
+
+#: include/shortcodes/shortcode_functions.php:2019
+#: include/shortcodes/shortcode_functions.php:2164
+#@ dir
+msgid "Select the font awsome Icons you would like to add to your menu items"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1655
+#@ dir
+msgid "Author Url"
+msgstr ""
+
+#: include/shortcodes/typography_elements.php:1659
+#@ dir
+msgid "Give the Author External / Internal Url"
+msgstr ""
+
+#: include/shortcodes/typography_function.php:460
+#@ dir
+msgid "Full Name"
+msgstr ""
+
+#: include/shortcodes/typography_function.php:465
+#@ dir
+msgid "emil"
+msgstr ""
+
+#: include/shortcodes/typography_function.php:470
+#@ dir
+msgid "Subject"
+msgstr ""
+
+#: include/theme-components/cs-widgets/widgets.php:1557
+#@ dir
+msgid "No menus have been created yet."
+msgstr ""
+
