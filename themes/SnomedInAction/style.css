@@ -756,7 +756,7 @@ padding: 3px 5px 2px; font-size: 11px; background-color: #fff7eb !important; col
 .ui-widget-content li.ui-menu-item { border-bottom: 1px solid #f5f5f5; color: #949494; font-size: 12px; padding: 6px 17px; text-transform: uppercase; }
 .directory-advanced-search-content form ul { float: none; margin-left: -20px; }
 .advance-search-custom-fields,.directory-type-categories-load { float: left; padding: 30px 0px 10px; width: 100%; }
-.directory-type-categories-load ul.check-box input[type="checkbox"]:checked + label:before { background-color: #000; border-radius: 0; border: none; color: #fff; content: ""; font: 12px/15px FontAwesome; text-align: center; }
+.directory-type-categories-load ul.check-box input[type="checkbox"]:checked + label:before { background-color: #000; border-radius: 0; border: none; color: #fff; content: ""; font: 12px/15px FontAwesome; text-align: center; }
 .directory-type-categories-load ul.check-box label:before { background-color: #fff; border: 2px solid #ddd; }
 .directory-advanced-search-content .SumoSelect > .optWrapper.multiple > .options > li span { left: auto; right: 0px; }
 .directory-advanced-search-content .SumoSelect > .optWrapper.multiple > .options > li.selected span i { background-position: 0px 3px; background-repeat: no-repeat; background: url(assets/images/check.png); }
@@ -2041,7 +2041,7 @@ header#main-header { float: left; width: 100%; z-index: 9999; }
 .under-wrapp .social-media a { background: #f2f2f2; font-size: 16px; }
 .under-wrapp .social-media ul li a:hover {background: #03b4ea;}
 .under-wrapp .cs-search-area label {position: relative;}
-	.under-wrapp .cs-search-area label:before { color: #999; content: ""; font-family: 'icomoon'; font-size: 15px; left: 4%; position: absolute; top: 11px; z-index: 100; }
+	.under-wrapp .cs-search-area label:before { color: #999; content: ""; font-family: 'icomoon'; font-size: 15px; left: 4%; position: absolute; top: 11px; z-index: 100; }
 .under-wrapp .social-media {width: 100%;}
 	.under-wrapp .social-media ul { display: inline-block; float: none; }
 /* User Setup */
@@ -2274,7 +2274,7 @@ header#main-header { float: left; width: 100%; z-index: 9999; }
 .section-fullwidth .social-media ul li a:hover {background: #03b4ea;}
 .cs-search-area label {position: relative;}
 .page-no-search .cs-search-area label { left: 0px; position: absolute; top: 0px; width: 100%; }
-.cs-search-area label:before { color: #999; content: ""; font-family: 'icomoon'; font-size: 15px; left: 4%; position: absolute; top: 11px; z-index: 100; }
+.cs-search-area label:before { color: #999; content: ""; font-family: 'icomoon'; font-size: 15px; left: 4%; position: absolute; top: 11px; z-index: 100; }
 .cons-icon-area .social-media { display: inline-block; float: none; }
 /* Video Player Style */
 .video-player { background: url(assets/images/pattner-bg.png) repeat; float: left; padding: 15px; width: 100%; }
@@ -2306,7 +2306,7 @@ ul.slider-option li { float: left; margin-bottom: 5px; width: 100%; }
 .content-slider .flex-direction-nav { bottom: 50px; left: 19%; position: absolute; right: auto; }
 	.content-slider .flex-direction-nav li, .content-slider {position: relative;}
 .content-slider .flex-prev:before { color: #fff; content: "\f0d9"; display: block; font-family: 'icomoon'; font-size: 18px; height: 0; left: 90px; overflow: visible; position: absolute; top: 5px; width: 0; z-index: 100; }
-.content-slider .flex-next:after { color: #fff; content: ""; display: block; font-family: 'icomoon'; font-size: 18px; height: 0; overflow: visible; position: absolute; right: 0px; top: 5px; width: 0; z-index: 100; }
+.content-slider .flex-next:after { color: #fff; content: ""; display: block; font-family: 'icomoon'; font-size: 18px; height: 0; overflow: visible; position: absolute; right: 0px; top: 5px; width: 0; z-index: 100; }
 .content-slider .flex-direction-nav a { opacity: 1; overflow: visible; }
 /* Cs Partner Style */
 .cs-partner .col-md-2 { margin: 0px -4px 0px 0px; padding: 0px 0px 0px 0px; width: 17%; }
@@ -3554,3 +3554,5 @@ position: relative;
     padding: 0px 0px 0px 8px;
     color: #666;
 }*/
+.form-select-state{display:none!important}
+.form-select-city{display:none!important}
