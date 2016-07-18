@@ -1869,8 +1869,8 @@ function showPosition(position) {
 				  var map_type = response.map_type;
 				  var map_zoom = response.map_zoom;
 				  var marker_color = response.marker_color;
-				  cs_googlecluster_map(id, Latitude, Longitude, marker_url, dataobj, mapp_zoom, marker_color, style)
-				  jQuery(".loader").html('');_type, ma
+				  cs_googlecluster_map(id, Latitude, Longitude, marker_url, dataobj, map_type, map_zoom, marker_color, style)
+				  jQuery(".loader").html('');
 			  }
 		  });
 		  return false;
@@ -1985,22 +1985,17 @@ function showPosition(position) {
 			});*/
 						
 			var markers = [];
-                        var element;
 			var LatLngList = [];
 			var mc;
 			//var markerImage = new google.maps.MarkerImage(imageUrl,	new google.maps.Size(24, 32));
 			var infowindow = new google.maps.InfoWindow({ maxWidth: 420 });
-//					console.log(dataobj.posts[0]);
+					//console.log(dataobj.posts[0]);
 					jQuery.each(dataobj.posts, function(index, element) {
 							var i = element.post_id;
 							var latLng = new google.maps.LatLng(element.latitude, element.longitude);
 							//LatLngList = new google.maps.LatLng(element.latitude, element.longitude);
 							LatLngList.push(new google.maps.LatLng(element.latitude, element.longitude));
-//							console.log(element);
-//                                                        $.post("test.php", {elem:element}) 
-//                                                        .done(function(data) {
-//                                            console.log(data)
-//                                                    });
+							console.log(element);
 							var objective = "";
 							if (element.objective != null){
 								objective = element.objective; }
@@ -2021,8 +2016,7 @@ function showPosition(position) {
 							});
 						google.maps.event.addListener(marker, 'click', (function(marker, i) {
 							// console.log('ian you have it'+marker.getPosition());
-//							 alert('clicked');
-                                                  
+							// alert('clicked');
 							  return function() {
 							  //var dateFormat = jQuery.datepicker.formatDate('Y-m-d', new Date(marker.date));
 							  var dateFormat = marker.date;
@@ -2081,39 +2075,12 @@ function showPosition(position) {
 					  ignoreHidden:true, 
 					  minZoom: 1,
 					  maxZoom: 2,
-                                          zoomOnClick: false,
 					  styles: clusterStyles
 						};
-					var mc =new MarkerClusterer(map, markers, mcOptions);
-                                        google.maps.event.addListener(mc, 'clusterclick', function(cluster){
-                                            var ids =[];
-//                                            var post=[];
-                                            jQuery.each( dataobj.posts, function(i, e) {
-                                                 ids.push(jQuery(e.post_id).toArray());
-//                                                jQuery.post("test.php",{tete:post}) 
-//                                                        .done(function(data) {
-//                                                     alert(data);
-//                                             console.log(data);
-//                                             
-//                                                    });
-                                            });
-                                           
-                                            alert( ids.join());
-                                            console.log( ids.join());
-//                                              window.location = "http://ihtsdodev.s18346665.onlinehome-server.info/test.php?markers=" + markers;
-//                                            alert(markers);
-//                                            console.log(element);
-//                                                  jQuery.post("test.php",{tete:markers}) 
-//                                                        .done(function(data) {
-//                                                     alert(data);
-//                                             console.log(data);
-//                                             
-//                                                    });
-                                        });
-				if(  document.getElementById('gmapzoomplus'+id) ){ 
+					var mc = new MarkerClusterer(map, markers, mcOptions);
+					if(  document.getElementById('gmapzoomplus'+id) ){ 
 						 google.maps.event.addDomListener(document.getElementById('gmapzoomplus'+id), 'click', function () {      
 						   var current= parseInt( map.getZoom(),10 );
-//                                                   alert("clicked");
 						   current++;
 						   if(current>20){
 							   current=20;
@@ -2161,7 +2128,7 @@ function showPosition(position) {
 									position: center,
 									map: map,
 									title: '',
-									icon: new google.maps.MarkerImage(c, null, null, null, new google.maps.Size(64,55)),
+									icon: new google.maps.MarkerImage(cs_svg_marker, null, null, null, new google.maps.Size(64,55)),
 									shadow: ''
 								});
 								map.setCenter(center);
