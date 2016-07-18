@@ -622,7 +622,7 @@ if ( !class_exists('SingleTemplates') ) {
                             <!--post Specifications Start-->    
                             <?php cs_get_post_specification($cs_directory_type_select); ?>
                             <!--post Specifications End-->
-                            <div class="rich_editor_text">
+                        <div class="rich_editor_text">
                                 <h5><?php _e('Description', 'directory'); ?></h5>
                                 <?php 
                                     the_content();
@@ -631,12 +631,21 @@ if ( !class_exists('SingleTemplates') ) {
  							<br>
  							<h5><?php _e('Scope', 'directory'); ?></h5>
  							<p><?php the_scope(); ?></p>
+                            <p><?php 
+echo get_post_meta( get_the_ID(), 'dir_scope', true ); ?>
+                            </p>
  							<br>
  							<h5><?php _e('How Snomed CT will be used', 'directory'); ?></h5>
- 							<p><?php get_post_how(); ?></p>
+ 							<p>
+                            <?php 
+echo get_post_meta( get_the_ID(), 'dir_how', true ); ?>
+</p>
  							<br>
  							<h5><?php _e('Why Snomed CT was selected', 'directory'); ?></h5>
- 							<p><?php get_post_why(); ?></p>
+ 							<p>
+                            <?php 
+echo get_post_meta( get_the_ID(), 'dir_why', true ); ?>
+</p>
  							</div>
                             <!-- Tags -->
                             
