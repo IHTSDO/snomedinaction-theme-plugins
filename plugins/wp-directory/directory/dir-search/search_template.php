@@ -977,7 +977,7 @@ if ( ! function_exists( 'cs_directory_map_search' ) ) {
 				
 								$address	= sanitize_text_field($_POST['location']);
 								$prepAddr	= str_replace(' ','+',$address);
-								$geocode	= file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
+								$geocode	= file_get_contents('https://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
 								$output		= json_decode($geocode);
 								$Latitude	= $output->results[0]->geometry->location->lat;
 								$Longitude	= $output->results[0]->geometry->location->lng;
@@ -1224,7 +1224,7 @@ if ( ! function_exists( 'cs_directory_map_search' ) ) {
 									else{
 										$address	= sanitize_text_field($_POST['location']);
 										$prepAddr	= str_replace(' ','+',$address);
-										$geocode	= file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
+										$geocode	= file_get_contents('https://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
 										$output		= json_decode($geocode);
 										$Latitude	= $output->results[0]->geometry->location->lat;
 										$Longitude	= $output->results[0]->geometry->location->lng;
@@ -1232,7 +1232,7 @@ if ( ! function_exists( 'cs_directory_map_search' ) ) {
                                 } else {
                                     $address 	= sanitize_text_field($_POST['location']);
                                     $prepAddr   = str_replace(' ','+',$address);
-                                    $geocode    = file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
+                                    $geocode    = file_get_contents('https://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
                                     $output     = json_decode($geocode);
                                     $Latitude   = $output->results[0]->geometry->location->lat;
                                     $Longitude  = $output->results[0]->geometry->location->lng;
@@ -1448,7 +1448,7 @@ if ( ! function_exists( 'cs_directory_map_search' ) ) {
                             } else if(isset($_POST['location']) && $_POST['location'] <> '') {
                                 $address = sanitize_text_field($_POST['location']);
                                 $prepAddr = str_replace(' ','+',$address);
-                                $geocode = file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
+                                $geocode = file_get_contents('https://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
                                 $output = json_decode($geocode);
                                 $Latitude = $output->results[0]->geometry->location->lat;
                                 $Longitude = $output->results[0]->geometry->location->lng;

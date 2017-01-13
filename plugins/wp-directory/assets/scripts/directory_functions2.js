@@ -1751,7 +1751,7 @@ function getLocation(id,admin_url) {
 function showPosition(position) {
 	var x = document.getElementById("geo_location_address");
 	jQuery.ajax({
-      url	  	: 'http://maps.googleapis.com/maps/api/geocode/json?latlng='+position.coords.latitude+','+position.coords.longitude+'&sensor=true',
+      url	  	: 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+position.coords.latitude+','+position.coords.longitude+'&sensor=true',
       type	  	: 'POST',
       dataType	: 'json',
       success 	: function(data) {

@@ -207,7 +207,7 @@ if(!class_exists('wp_directory'))
 		// Google Places
 		//=====================================================================
 		public static function cs_google_place_scripts() {
-			wp_enqueue_script( 'jquery-goolge-places', 'http://maps.google.com/maps/api/js?sensor=false&libraries=places', '', '', true);
+			wp_enqueue_script( 'jquery-goolge-places', 'https://maps.google.com/maps/api/js?sensor=false&libraries=places', '', '', true);
 		}		
 		//=====================================================================
 		// Choosen Dropdown
@@ -235,7 +235,7 @@ if(!class_exists('wp_directory'))
 		// Google Map markerclusterer
 		//=====================================================================
 		public static function cs_googlemapcluster_scripts() {
-			wp_enqueue_script( 'jquery-goolge-places', 'http://maps.google.com/maps/api/js?sensor=false&libraries=places', '', '', true);
+			wp_enqueue_script( 'jquery-goolge-places', 'https://maps.google.com/maps/api/js?sensor=false&libraries=places', '', '', true);
 			 wp_enqueue_script('markerclusterer_js', plugins_url('/assets/scripts/markerclusterer.js', __FILE__), '', '', true);
 
 		} 

@@ -2994,7 +2994,7 @@ if ( ! function_exists( 'cs_enqueue_validation_script' ) ) {
 // Location Search Google map
 if ( ! function_exists( 'cs_enqueue_location_gmap_script' ) ) {
     function cs_enqueue_location_gmap_script(){
-        // wp_enqueue_script('jquery.googleapis_js', 'http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places', '', '', true);
+        // wp_enqueue_script('jquery.googleapis_js', 'https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places', '', '', true);
         wp_enqueue_script('jquery.gmaps-latlon-picker_js', get_template_directory_uri() . '/include/assets/scripts/jquery_gmaps_latlon_picker.js', '', '', true);
     }
 }
@@ -3219,7 +3219,7 @@ function cs_get_search_results($query) {
             } else {
                 $address = sanitize_text_field($_GET['search_location']);
                 $prepAddr = str_replace(' ','+',$address);
-                $geocode=file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
+                $geocode=file_get_contents('https://maps.google.com/maps/api/geocode/json?address='.$prepAddr.'&sensor=false');
                 $output= json_decode($geocode);
                 $Latitude = $output->results[0]->geometry->location->lat;
                 $Longitude = $output->results[0]->geometry->location->lng;
