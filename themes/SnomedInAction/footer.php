@@ -90,7 +90,9 @@
     </div>
     <!-- Wrapper End -->   
     <?php wp_footer(); ?>
-	<!--Start Cookie Script--> <script type="text/javascript" charset="UTF-8" src="http://chs03.cookie-script.com/s/7e758589d098ede9d39b5f3f54d9646e.js"></script> <!--End Cookie Script-->
+		<!--Start Cookie Script-->
+<script type="text/javascript" charset="UTF-8" src="https://cookie-script.com/s/aaec2a439e8e0fc7199222b89576e345.js"></script>
+<!--End Cookie Script-->
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
